@@ -112,4 +112,28 @@ for i in range (1,n+1):
 print(s)
 
 #program to find the factorial of a number
-n=int(input("enter your"))
+n=int(input("enter your number"))
+s=1
+for i in range(1,n+1):
+    s=s*i
+print(s)
+
+
+#using while loop to find factorial
+n=int(input("enter your number"))
+i-1
+s=1
+while i<n+1:
+    s=s*i
+    i=i+1
+print(s)
+
+
+# find factors of a number
+n=int(input("enter your number :"))
+for i in range (1,n+1):
+    if n%i==0:
+        print(i,"is a factor of ",n)
+
+
+
